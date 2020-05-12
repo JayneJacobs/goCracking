@@ -1,8 +1,6 @@
 package main
 
-import (
-	"goCracking/stringprnt"
-)
+import "goCracking/readfull"
 
 //Strings.Containes in first is second found?
 func main() {
@@ -31,7 +29,9 @@ func main() {
 	// converttype.ConvertInts()
 	// concatslices.ConcatonateSl()
 	// stringprnt.MyltiLineStr()
-	stringprnt.UseScanfln()
-
+	// stringprnt.UseScanfln()
+	// fscanosfile.ScanFile()
+	// readatleast.MyNewReader()
+	readfull.MyReadFull()
 }
 
