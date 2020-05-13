@@ -1,6 +1,6 @@
 package main
 
-import "goCracking/readfull"
+import "goCracking/copyslcmpintrtface"
 
 //Strings.Containes in first is second found?
 func main() {
@@ -32,6 +32,12 @@ func main() {
 	// stringprnt.UseScanfln()
 	// fscanosfile.ScanFile()
 	// readatleast.MyNewReader()
-	readfull.MyReadFull()
+	// readfull.MyReadFull()
+	// copyslcmpintrtface.UseCopyExample()
+	// copyslcmpintrtface.CopyMap()
+	// n := funccallself.Factorial(7)
+	// fmt.Println(n)
+	// fmt.Printf("This is the length of Jayne: %v \n", stringmethods.LenString("Jayne"))
+	copyslcmpintrtface.CopyArrayToSlice()
 }
 

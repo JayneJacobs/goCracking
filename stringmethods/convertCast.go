@@ -13,3 +13,9 @@ func ConvertCase()  {
 	b = fmt.Sprintln(strings.ToUpper(b))
 	fmt.Printf(b)
 }
+
+
+// LenString returns the lenth of an input string
+func LenString(instr string) int {
+	return len(instr)
+}
