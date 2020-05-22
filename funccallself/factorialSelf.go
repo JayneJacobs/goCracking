@@ -11,7 +11,3 @@ func Factorial(n int)  int {
 	return n
 }
 
-// LenString returns the lenth of an input string
-func LenString(instr string) int {
-	return len(instr)
-}

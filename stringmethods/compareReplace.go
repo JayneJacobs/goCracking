@@ -8,7 +8,7 @@ import (
 // CompareReplace Containes Suffix Join Replace
 func CompareReplace()  {
 	// fmt.Println(strings.Contains("Jayne", "J"))
-	fmt.Println(strings.Compare("Jayne", "Jayn"))
+	fmt.Println(strings.Compare("Jayne", "Jayne"))
 	fmt.Println(strings.Compare("Jayne", "jaYne"))
 	fmt.Println(strings.Compare("Jayne", "Jayne"))
 	// fmt.Println(strings.HasPrefix("Jayne", "Jay"))
