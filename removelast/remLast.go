@@ -16,3 +16,4 @@ func RemoveL()  {
 	removedArray := myArray[:len(myArray)-1]
 	fmt.Println(removedArray)
 }
+
